@@ -10,7 +10,7 @@ class LoginPage{
   }
 
  tb_username = "//input[@name='user_name']"
- tb_password = ''
+ tb_password = "//input[@pass='user_pass']"
  loc_btn_click = ''
 
 
