@@ -13,7 +13,7 @@ class LoginPage{
  tb_password = "//input[@pass='user_pass']"
  loc_btn_click = ''
 
-
+ ////input[@pass='user_pass']
 
 
 async login(Userid: string, Password: string ): Promise<void>{
