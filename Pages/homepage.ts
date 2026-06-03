@@ -10,10 +10,10 @@ class LoginPage{
   }
 
  tb_username = "//input[@name='user_name']"
- tb_password = "//input[@pass='user_pass']"
- loc_btn_click = ''
+ tb_password = "//input[@name='user_password']"
+ loc_btn_click = ""
 
- ////input[@pass='user_pass']
+ 
 
 
 async login(Userid: string, Password: string ): Promise<void>{
@@ -21,8 +21,7 @@ async login(Userid: string, Password: string ): Promise<void>{
   await this.page.fill(this.tb_username, Userid)
 }
 
-async setlogin(Userid: string, Password: string ): Promise<void>{
-
+async setlogin(Userid: string): Promise<void>{
 
 
 
